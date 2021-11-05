@@ -1,0 +1,21 @@
+{
+	"name": "snippet-sample",
+	"displayName": "Snippet Sample",
+	"description": "Snippet Sample",
+	"version": "0.0.2",
+	"publisher": "haohailiang",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript, typescript, ",
+				"path": "./snippets.json"
+			}
+		]
+	}
+}
