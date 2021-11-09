@@ -1,9 +1,9 @@
 {
-	"脚本描述": {
-		"prefix": "haha",
-		"body": [
-			"随便写"
-		],
-		"description": "hhl打印出脚本"
-	}
+    "脚本描述": {
+        "prefix": "haha",
+        "body": [
+            "随便写"
+        ],
+        "description": "hhl打印出脚本"
+    }
 }

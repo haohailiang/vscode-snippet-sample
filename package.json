@@ -1,21 +1,57 @@
 {
-	"name": "snippet-sample",
-	"displayName": "Snippet Sample",
-	"description": "Snippet Sample",
-	"version": "0.0.2",
-	"publisher": "haohailiang",
-	"engines": {
-		"vscode": "^1.28.0"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "javascript, typescript, ",
-				"path": "./snippets.json"
-			}
-		]
-	}
+    "name": "snippet-sample",
+    "displayName": "Snippet Sample",
+    "description": "代码片段样板",
+    "version": "0.0.2",
+    "publisher": "haohailiang",
+    "author": {
+        "name": "haohailiang",
+        "email": "646263409@qq.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/haohailiang/vscode-snippet-sample.git"
+    },
+    "homepage": "https://github.com/haohailiang/vscode-snippet-sample/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/haohailiang/vscode-snippet-sample/issues"
+    },
+    "icon": "res/icon.jpg",
+    "keywords": [
+        "threejs"
+    ],
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets.json"
+            },
+            {
+                "language": "jsonc",
+                "path": "./snippets.json"
+            }
+        ]
+    }
 }
